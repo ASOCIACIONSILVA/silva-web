@@ -7,25 +7,38 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="logo">🌿 SILVA</div>
-      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
-      <ul class="nav-menu">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="territorio.html">El Territorio</a></li>
-        <li><a href="que-hacemos.html">Qué Hacemos</a></li>
-        <li><a href="proyectos.html">Proyectos</a></li>
-        <li><a href="jornadas.html">Jornadas</a></li>
-        <li><a href="participa.html">Participa</a></li>
-        <li><a href="empresas.html">Empresas</a></li>
-        <li><a href="impacto.html">Impacto</a></li>
-        <li><a href="aprende.html">Aprende</a></li>
-        <li><a href="silva.html">Silva</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
+  
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <img src="images/logo-silva.jpg" alt="Logo SILVA" style="height: 50px;" />
     </div>
-  </nav>
+    <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+    <ul class="nav-menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="territorio.html">El Territorio</a></li>
+      <li><a href="que-hacemos.html">Qué Hacemos</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="jornadas.html">Jornadas</a></li>
+      <li><a href="participa.html">Participa</a></li>
+      <li><a href="empresas.html">Empresas</a></li>
+      <li><a href="impacto.html">Impacto</a></li>
+      <li><a href="aprende.html">Aprende</a></li>
+      <li><a href="silva.html">Silva</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggle = document.querySelector(".menu-toggle");
+    const menu = document.querySelector(".nav-menu");
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("active");
+    });
+  });
+</script>
+
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const toggle = document.querySelector(".menu-toggle");
