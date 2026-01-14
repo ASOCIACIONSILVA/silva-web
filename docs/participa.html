@@ -7,70 +7,54 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="container header">
-      <h1 class="logo">🌿 SILVA</h1>
-      
-
-<nav class="navbar">
-  <div class="nav-container">
-    <div class="logo">🌿 SILVA</div>
-    <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
-    <ul class="nav-menu">
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="territorio.html">El Territorio</a></li>
-      <li><a href="que-hacemos.html">Qué Hacemos</a></li>
-      <li><a href="proyectos.html">Proyectos</a></li>
-      <li><a href="jornadas.html">Jornadas</a></li>
-      <li><a href="participa.html">Participa</a></li>
-      <li><a href="empresas.html">Empresas</a></li>
-      <li><a href="impacto.html">Impacto</a></li>
-      <li><a href="aprende.html">Aprende</a></li>
-      <li><a href="silva.html">Silva</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-  </div>
-</nav>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const toggle = document.querySelector(".menu-toggle");
-    const menu = document.querySelector(".nav-menu");
-    toggle.addEventListener("click", () => {
-      menu.classList.toggle("active");
-    });
-  });
-</script>
-
-
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="images/logo-silva.jpg" alt="Logo SILVA" style="height: 50px;" />
+      </div>
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="territorio.html">El Territorio</a></li>
+        <li><a href="que-hacemos.html">Qué Hacemos</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="jornadas.html">Jornadas</a></li>
+        <li><a href="participa.html">Participa</a></li>
+        <li><a href="empresas.html">Empresas</a></li>
+        <li><a href="impacto.html">Impacto</a></li>
+        <li><a href="aprende.html">Aprende</a></li>
+        <li><a href="silva.html">Silva</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggle = document.querySelector(".menu-toggle");
+      const menu = document.querySelector(".nav-menu");
+      toggle.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    });
+  </script>
 
   <section class="hero">
     <div class="container">
-      <h2>Participa</h2>
-      <p>Súmate a la regeneración de los bosques de Canarias desde diferentes formas de colaboración.</p>
+      <h2>Súmate a Bosques Vivos de Canarias</h2>
+      <p>Tu implicación contribuye a regenerar ecosistemas, proteger biodiversidad y fortalecer el vínculo con el territorio.</p>
     </div>
   </section>
 
   <section>
     <div class="container">
-      <h3>Formas de participar</h3>
-      <ul>
-        <li>Voluntario/a</li>
-        <li>Empresa</li>
-        <li>Centro educativo</li>
-        <li>Entidad pública o social</li>
-      </ul>
-      <p>La regeneración del territorio es una responsabilidad compartida.</p>
-
-      <h3>¿Por qué participar?</h3>
-      <p>Tu implicación contribuye directamente a:</p>
-      <ul>
-        <li>Regenerar ecosistemas</li>
-        <li>Proteger la biodiversidad</li>
-        <li>Fortalecer el vínculo con el territorio</li>
-      </ul>
-      <p><strong>Cada acción cuenta.</strong></p>
+      <h3>Voluntariado</h3>
+      <p>Participa en acciones en campo y formación.</p>
+      <h3>Empresas</h3>
+      <p>Colabora con proyectos forestales con impacto real.</p>
+      <h3>Centros educativos</h3>
+      <p>Educación ambiental con participación activa.</p>
+      <h3>Entidades</h3>
+      <p>Alianzas con instituciones públicas y sociales.</p>
     </div>
   </section>
 

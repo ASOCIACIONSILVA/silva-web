@@ -3,81 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Participa / Dona / Colabora · SILVA</title>
+  <title>Contacto · SILVA</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="container header">
-      <h1 class="logo">🌿 SILVA</h1>
-      
-
-<nav class="navbar">
-  <div class="nav-container">
-    <div class="logo">🌿 SILVA</div>
-    <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
-    <ul class="nav-menu">
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="territorio.html">El Territorio</a></li>
-      <li><a href="que-hacemos.html">Qué Hacemos</a></li>
-      <li><a href="proyectos.html">Proyectos</a></li>
-      <li><a href="jornadas.html">Jornadas</a></li>
-      <li><a href="participa.html">Participa</a></li>
-      <li><a href="empresas.html">Empresas</a></li>
-      <li><a href="impacto.html">Impacto</a></li>
-      <li><a href="aprende.html">Aprende</a></li>
-      <li><a href="silva.html">Silva</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-  </div>
-</nav>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const toggle = document.querySelector(".menu-toggle");
-    const menu = document.querySelector(".nav-menu");
-    toggle.addEventListener("click", () => {
-      menu.classList.toggle("active");
-    });
-  });
-</script>
-
-
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="images/logo-silva.jpg" alt="Logo SILVA" style="height: 50px;" />
+      </div>
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="territorio.html">El Territorio</a></li>
+        <li><a href="que-hacemos.html">Qué Hacemos</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="jornadas.html">Jornadas</a></li>
+        <li><a href="participa.html">Participa</a></li>
+        <li><a href="empresas.html">Empresas</a></li>
+        <li><a href="impacto.html">Impacto</a></li>
+        <li><a href="aprende.html">Aprende</a></li>
+        <li><a href="silva.html">Silva</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggle = document.querySelector(".menu-toggle");
+      const menu = document.querySelector(".nav-menu");
+      toggle.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    });
+  </script>
 
   <section class="hero">
     <div class="container">
-      <h2>Súmate a Bosques Vivos de Canarias</h2>
-      <p>Tu implicación contribuye directamente a regenerar ecosistemas, proteger la biodiversidad y fortalecer el vínculo con el territorio.</p>
+      <h2>Contáctanos</h2>
+      <p>Estamos abiertos a colaboraciones, propuestas, preguntas o participación en nuestros proyectos.</p>
     </div>
   </section>
 
   <section>
     <div class="container">
-      <h3>¿Cómo puedes colaborar?</h3>
-      <ul>
-        <li>Participando en actividades como voluntario/a</li>
-        <li>Colaborando como empresa o entidad</li>
-        <li>Haciendo una donación puntual o recurrente</li>
-      </ul>
-
-      <h3>Formulario de contacto</h3>
-      <p>Puedes escribirnos a través de nuestro correo electrónico o usar el siguiente formulario:</p>
-
-      <form action="https://formspree.io/f/mqkrjgzb" method="POST">
-        <label for="name">Nombre:</label><br/>
-        <input type="text" id="name" name="name" required><br/><br/>
-
-        <label for="email">Correo electrónico:</label><br/>
-        <input type="email" id="email" name="email" required><br/><br/>
-
-        <label for="message">Mensaje:</label><br/>
-        <textarea id="message" name="message" rows="5" required></textarea><br/><br/>
-
-        <button type="submit">Enviar</button>
-      </form>
-
-      <p><small>Al enviar este formulario, aceptas nuestra política de privacidad.</small></p>
     </div>
   </section>
 

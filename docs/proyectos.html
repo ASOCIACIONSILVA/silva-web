@@ -7,63 +7,54 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="container header">
-      <h1 class="logo">🌿 SILVA</h1>
-      
-
-<nav class="navbar">
-  <div class="nav-container">
-    <div class="logo">🌿 SILVA</div>
-    <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
-    <ul class="nav-menu">
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="territorio.html">El Territorio</a></li>
-      <li><a href="que-hacemos.html">Qué Hacemos</a></li>
-      <li><a href="proyectos.html">Proyectos</a></li>
-      <li><a href="jornadas.html">Jornadas</a></li>
-      <li><a href="participa.html">Participa</a></li>
-      <li><a href="empresas.html">Empresas</a></li>
-      <li><a href="impacto.html">Impacto</a></li>
-      <li><a href="aprende.html">Aprende</a></li>
-      <li><a href="silva.html">Silva</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-  </div>
-</nav>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const toggle = document.querySelector(".menu-toggle");
-    const menu = document.querySelector(".nav-menu");
-    toggle.addEventListener("click", () => {
-      menu.classList.toggle("active");
-    });
-  });
-</script>
-
-
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="images/logo-silva.jpg" alt="Logo SILVA" style="height: 50px;" />
+      </div>
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="territorio.html">El Territorio</a></li>
+        <li><a href="que-hacemos.html">Qué Hacemos</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="jornadas.html">Jornadas</a></li>
+        <li><a href="participa.html">Participa</a></li>
+        <li><a href="empresas.html">Empresas</a></li>
+        <li><a href="impacto.html">Impacto</a></li>
+        <li><a href="aprende.html">Aprende</a></li>
+        <li><a href="silva.html">Silva</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggle = document.querySelector(".menu-toggle");
+      const menu = document.querySelector(".nav-menu");
+      toggle.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    });
+  </script>
 
   <section class="hero">
     <div class="container">
       <h2>Nuestros proyectos</h2>
-      <p>Cada proyecto incluye localización, objetivo ecológico, especies utilizadas y seguimiento en el tiempo.</p>
+      <p>Cada proyecto incluye localización, objetivo ecológico, especies utilizadas, estado del proyecto, impacto esperado y seguimiento.</p>
     </div>
   </section>
 
   <section>
     <div class="container">
-      <p>Los proyectos no terminan con una acción puntual. Evolucionan en el tiempo e incorporan:</p>
-      <ul>
-        <li>Localización y ecosistema</li>
-        <li>Objetivo ecológico</li>
-        <li>Especies utilizadas</li>
-        <li>Estado del proyecto</li>
-        <li>Impacto esperado</li>
-        <li>Seguimiento y evaluación</li>
-      </ul>
-      <p>Trabajamos para asegurar la efectividad y el impacto ecológico a largo plazo.</p>
+      <h3>Laurisilva</h3>
+      <p>Proyecto en bosque húmedo relicto, con especies adaptadas y monitoreo constante.</p>
+      <h3>Pinar canario</h3>
+      <p>Reforestación planificada en ecosistemas adaptados al fuego.</p>
+      <h3>Monteverde</h3>
+      <p>Recuperación ecológica de áreas de transición y degradadas.</p>
+      <h3>Zonas degradadas</h3>
+      <p>Restauración ecológica en zonas forestales alteradas por el uso humano.</p>
     </div>
   </section>
 
