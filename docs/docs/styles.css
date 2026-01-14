@@ -20,7 +20,7 @@ body {
 
 /* HEADER */
 header {
-  background-color: #e6f0e6;
+  background-color: #1b3d1f;
   color: white;
   padding: 20px 0;
 }
@@ -85,7 +85,7 @@ section ul {
 
 /* FOOTER */
 footer {
-  background-color: #e6f0e6;
+  background-color: #1b3d1f;
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -115,13 +115,13 @@ footer {
 }
 
 .menu a:hover {
-  background-color: #e6f0e6;
+  background-color: #1b3d1f;
 }
 
 
 
 .navbar {
-  background-color: #e6f0e6;
+  background-color: #1b3d1f;
   color: white;
   padding: 10px 20px;
 }
@@ -164,7 +164,7 @@ footer {
 }
 
 .nav-menu a:hover {
-  background-color: #e6f0e6;
+  background-color: #1b3d1f;
 }
 
 @media (max-width: 768px) {
@@ -176,7 +176,7 @@ footer {
     display: none;
     flex-direction: column;
     width: 100%;
-    background-color: #e6f0e6;
+    background-color: #1b3d1f;
   }
 
   .nav-menu.active {
